@@ -3,7 +3,8 @@
 @import './normalize';
 
 body {
-  
+  margin: 0;
+  background-color: $color-light-gray;
 }
 
 * {

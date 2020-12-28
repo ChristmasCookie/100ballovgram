@@ -1,15 +1,16 @@
 <template>
   <div>
+    <VContactListHeading name="Hello World" />
   </div>
 </template>
 
 <script>
-// import VButton from '@/components/VButton'
+import VContactListHeading from '@/components/VContactListHeading'
 
 export default {
   name: 'ServeDev',
   components: {
-    // VButton,
+    VContactListHeading,
   }
 }
 </script>
